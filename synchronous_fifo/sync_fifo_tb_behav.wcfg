@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sync_fifo_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sync_fifo_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="154.573 ns"></ZoomEndTime>
+      <Cursor1Time time="162.788 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="247"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/sync_fifo_tb/clk_t" type="logic">
+      <obj_property name="ElementShortName">clk_t</obj_property>
+      <obj_property name="ObjectShortName">clk_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/rst_t" type="logic">
+      <obj_property name="ElementShortName">rst_t</obj_property>
+      <obj_property name="ObjectShortName">rst_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/data_i_tb" type="array">
+      <obj_property name="ElementShortName">data_i_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/wr_t" type="logic">
+      <obj_property name="ElementShortName">wr_t</obj_property>
+      <obj_property name="ObjectShortName">wr_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/s1/wr_ptr" type="array">
+      <obj_property name="ElementShortName">wr_ptr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/s1/fifo" type="array">
+      <obj_property name="ElementShortName">fifo[7:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo[7:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/full_t" type="logic">
+      <obj_property name="ElementShortName">full_t</obj_property>
+      <obj_property name="ObjectShortName">full_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/s1/rd_ptr" type="array">
+      <obj_property name="ElementShortName">rd_ptr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/rd_t" type="logic">
+      <obj_property name="ElementShortName">rd_t</obj_property>
+      <obj_property name="ObjectShortName">rd_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/data_o_tb" type="array">
+      <obj_property name="ElementShortName">data_o_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/empty_t" type="logic">
+      <obj_property name="ElementShortName">empty_t</obj_property>
+      <obj_property name="ObjectShortName">empty_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/s1/count" type="array">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sync_fifo_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
